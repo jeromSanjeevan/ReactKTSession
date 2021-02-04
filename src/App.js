@@ -25,8 +25,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        {/* <Greet name="React Test" /> */
-        /* <Welcome /> */}
+        <Greet name="React Test" />
+        <Welcome />
         <Hello name={this.state.name} />
         <div>
           <p>
